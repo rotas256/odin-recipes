@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: "Verdana", sans-serif; 
+}
+
 /* index.html */
 .site-title{
     font-size: 32px;
@@ -52,7 +56,7 @@ section{
 .recipe-heading::before{
     content: "";
     width: 4px;
-    height: 16px;
+    height: 18px;
     background-color: purple;
     display: inline-block;
     margin-right: 0.5em;
